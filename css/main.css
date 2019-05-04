@@ -1,0 +1,136 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Pacifico', cursive; */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/* **** GRID **** */
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 369px;
+  margin-right: 15px;
+  float: left;
+}
+
+/* **** HEADER **** */
+header {
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+header span {
+  color: #77a466;
+}
+
+header img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+/* *** NAV **** */
+nav {
+  float: right;
+  padding: 15px 0 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #77a466;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+/* **** WELCOME **** */
+#welcome {
+  padding: 20px 0 20px 0;
+}
+
+#welcome h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#welcome p {
+  font-size: 16px;
+  line-height: 21px;
+  margin: 27px 0 35px 0;
+}
+
+/* **** INFORMATION **** */
+#information {
+  font-size: 16px
+}
+
+#information .full-width {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  overflow: auto;
+}
+
+#information .third-width {
+  height: 210px;
+  margin-right: 20px;
+  padding: 15px 10px 0 0;
+}
+
+#information h3 {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#information p {
+  line-height: 23px;
+}
+
+#information ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#information ul li {
+  color: #77a466;
+  padding: 0;
+  line-height: 40px;
+}
+
+#information .border-right {
+  border-right: 1px solid #dedbdc;
+}
+
+/* **** FOOTER **** */
+footer h4 {
+  padding: 32px 0 32px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+footer span {
+  font-family: 'Pacifico', cursive;
+  text-transform: lowercase;
+  font-size: 16px;
+  color: #77a466;
+}
